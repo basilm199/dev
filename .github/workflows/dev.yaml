@@ -52,5 +52,5 @@ jobs:
         uses: peter-evans/repository-dispatch@v2
         with:
           token: ${{ secrets.token }}
-          repository: basil199/infra
+          repository: basilm199/infra
           event-type: deployment-in-dev-env
