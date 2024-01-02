@@ -6,3 +6,4 @@ chown -R apache:apache /var/www/html/*
 
 systemctl restart httpd.service php-fpm.service
 systemctl enable httpd.service php-fpm.service
+echo "all fine" > ba.txt
